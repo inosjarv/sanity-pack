@@ -1,4 +1,4 @@
-```marmaid
+```mermaid
 erDiagram
     sanity_pack_runs ||--o{ step_runs : "contains"
     sanity_pack_runs ||--o{ step_line_results : "logs execution of"
